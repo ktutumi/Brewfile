@@ -74,7 +74,7 @@ install php56-mcrypt
 install php56-memcache
 install php56-memcached
 install php56-xdebug
-install php56 --with-fpm --with-homebrew-curl
+install php56 --with-fpm --with-homebrew-curl --with-fpm --with-homebrew-curl
 install phpunit
 
 ## matsu-chara/brew-bundle
@@ -149,12 +149,6 @@ install xz
 install zsh
 install zsh-completions
 install zsh-syntax-highlighting
-
-# Below applications were installed by Cask,
-# but don't not have corresponding casks.
-
-#cask  install lastpass-universal (!)
-#cask  install parallels (!)
 
 # App Store applications
 appstore BitPerfect
