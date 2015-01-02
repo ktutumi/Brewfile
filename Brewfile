@@ -12,6 +12,7 @@ cask install chefdk
 cask install clamxav
 cask install clipmenu
 cask install cocoarestclient
+cask install dropbox-encore
 cask install dropbox
 cask install evernote
 cask install flash
@@ -39,8 +40,10 @@ cask install toggldesktop
 cask install totalfinder
 cask install utorrent
 cask install vagrant
+cask install viber
 cask install virtualbox
 cask install vlc
+cask install vmware-fusion
 cask install xld
 
 ## caskroom/versions
