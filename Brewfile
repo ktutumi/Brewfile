@@ -89,12 +89,14 @@ tap rcmdnk/file
 install brew-file
 
 # Other Homebrew packages
+install android-sdk
 install ant
 install autoconf
 install bison
 install cocot
 install curl
 install dnsmasq
+install fdclone
 install freetype
 install gdbm
 install gettext
@@ -119,6 +121,7 @@ install makedepend
 install mcrypt
 install memcached
 install mhash
+install midnight-commander
 install mysql
 install nginx
 install nkf
