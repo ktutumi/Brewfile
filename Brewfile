@@ -41,7 +41,6 @@ cask install toggldesktop
 cask install totalfinder
 cask install utorrent
 cask install vlc
-cask install vmware-fusion
 cask install wkhtmltopdf
 cask install xld
 
