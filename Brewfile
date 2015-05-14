@@ -22,6 +22,7 @@ cask install google-chrome
 cask install google-drive
 cask install grandperspective
 cask install handbrake
+cask install hipchat
 cask install hyperswitch
 cask install java
 cask install karabiner
@@ -29,6 +30,7 @@ cask install lastfm
 cask install launchrocket
 cask install macs-fan-control
 cask install mysqlworkbench
+cask install robomongo
 cask install sequel-pro
 cask install silverlight
 cask install skitch
@@ -39,6 +41,7 @@ cask install toggldesktop
 cask install totalfinder
 cask install utorrent
 cask install vlc
+cask install vmware-fusion
 cask install wkhtmltopdf
 cask install xld
 
@@ -47,6 +50,9 @@ tap caskroom/versions
 cask install firefox-ja
 cask install google-chrome-canary
 cask install macvim-kaoriya
+
+## homebrew/apache
+tap homebrew/apache
 
 ## homebrew/binary
 tap homebrew/binary
@@ -66,11 +72,13 @@ tap jimbojsb/launchrocket
 ## josegonzalez/php
 tap josegonzalez/php
 install composer
+install php56-igbinary
 install php56-mcrypt
 install php56-memcache
 install php56-memcached
+install php56-mongo
 install php56-xdebug
-install php56 --with-fpm --with-homebrew-curl --with-fpm --with-homebrew-curl
+install php56 --with-fpm --with-homebrew-curl --with-homebrew-curl --with-homebrew-curl
 install phpunit
 
 ## matsu-chara/brew-bundle
@@ -88,7 +96,9 @@ install brew-file
 install android-sdk
 install ansible
 install ant
-install apple-gcc42
+install apr
+install apr-util
+install arp-scan
 install autoconf
 install bison
 install cocot
@@ -96,6 +106,8 @@ install curl
 install direnv
 install dnsmasq
 install fdclone
+install ffmpeg
+install flow
 install freetype
 install gdbm
 install gettext
@@ -110,17 +122,21 @@ install icu4c
 install ios-sim
 install jpeg
 install jq
+install lame
 install libevent
 install libffi
 install libmemcached
 install libpng
 install libssh2
 install libtool
+install libvo-aacenc
+install libyaml
 install makedepend
 install mcrypt
 install memcached
 install mhash
 install midnight-commander
+install mongodb
 install mysql
 install nginx
 install nkf
@@ -143,24 +159,33 @@ install tmux
 install tree
 install unixodbc
 install vim
+install watchman
 install wget
+install x264
+install xvid
 install xz
 install zsh
 install zsh-completions
 install zsh-syntax-highlighting
 
 # App Store applications
-appstore BitPerfect
+appstore Blackmagic Disk Speed Test
+appstore ForkLift
+appstore GarageBand
 appstore Keynote
 appstore Kobito
 appstore LINE
-appstore Microsoft OneNote
 appstore MouseWarp
 appstore Numbers
 appstore OneDrive
 appstore Pages
+appstore Pushbullet
 appstore Slack
+appstore Todoist
 appstore Twitter
 appstore VOX
+appstore Writed
 appstore Wunderlist
 appstore Xcode
+appstore YoruFukurou
+appstore Yummy FTP
