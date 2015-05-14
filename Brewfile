@@ -29,7 +29,6 @@ cask install lastfm
 cask install launchrocket
 cask install macs-fan-control
 cask install mysqlworkbench
-cask install onyx
 cask install sequel-pro
 cask install silverlight
 cask install skitch
