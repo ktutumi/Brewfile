@@ -16,12 +16,12 @@ cask install dropbox-encore
 cask install dropbox
 cask install evernote
 cask install flash
+cask install flashlight
 cask install genymotion
 cask install google-chrome
 cask install google-drive
 cask install grandperspective
 cask install handbrake
-cask install hipchat
 cask install hyperswitch
 cask install java
 cask install karabiner
@@ -38,11 +38,8 @@ cask install the-unarchiver
 cask install toggldesktop
 cask install totalfinder
 cask install utorrent
-cask install vagrant
-cask install viber
-cask install virtualbox
 cask install vlc
-cask install vmware-fusion
+cask install wkhtmltopdf
 cask install xld
 
 ## caskroom/versions
@@ -61,7 +58,7 @@ install zlib
 
 ## homebrew/versions
 tap homebrew/versions
-install gradle110
+install gradle21
 
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
@@ -89,11 +86,14 @@ install brew-file
 
 # Other Homebrew packages
 install android-sdk
+install ansible
 install ant
+install apple-gcc42
 install autoconf
 install bison
 install cocot
 install curl
+install direnv
 install dnsmasq
 install fdclone
 install freetype
