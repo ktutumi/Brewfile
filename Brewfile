@@ -1,8 +1,8 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
-tap caskroom/cask
+## Caskroom/cask
+tap Caskroom/cask
 brew brew-cask
 cask alfred
 cask appcleaner
@@ -19,7 +19,6 @@ cask flash
 cask flashlight
 cask genymotion
 cask google-chrome
-cask google-drive
 cask grandperspective
 cask handbrake
 cask hipchat
@@ -43,6 +42,9 @@ cask utorrent
 cask vlc
 cask wkhtmltopdf
 cask xld
+
+## caskroom/cask
+tap caskroom/cask
 
 ## caskroom/versions
 tap caskroom/versions
@@ -114,6 +116,7 @@ brew gettext
 brew git
 brew git-now
 brew git-sh
+brew gitup
 brew glib
 brew gmp
 brew gnu-getopt
@@ -131,6 +134,7 @@ brew libssh2
 brew libtool
 brew libvo-aacenc
 brew libyaml
+brew mackup
 brew makedepend
 brew mcrypt
 brew memcached
@@ -144,6 +148,7 @@ brew node
 brew openssl
 brew pcre
 brew pkg-config
+brew python
 brew rbenv
 brew rbenv-bundler
 brew rbenv-gem-rehash
