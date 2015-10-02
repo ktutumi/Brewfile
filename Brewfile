@@ -12,7 +12,6 @@ cask chefdk
 cask clamxav
 cask clipmenu
 cask cocoarestclient
-cask dropbox-encore
 cask dropbox
 cask evernote
 cask flash
@@ -26,6 +25,7 @@ cask hyperswitch
 cask java
 cask karabiner
 cask lastfm
+cask lastpass
 cask launchrocket
 cask macs-fan-control
 cask mysqlworkbench
@@ -40,7 +40,6 @@ cask toggldesktop
 cask totalfinder
 cask utorrent
 cask vlc
-cask wkhtmltopdf
 cask xld
 
 ## caskroom/cask
@@ -67,6 +66,9 @@ brew zlib
 tap homebrew/versions
 brew gradle21
 
+## http:/
+tap http:/
+
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
 
@@ -82,6 +84,10 @@ brew php56-xdebug
 brew php56 --with-fpm --with-homebrew-curl --with-homebrew-curl --with-homebrew-curl
 brew phpunit
 
+## manastech/crystal
+tap manastech/crystal
+brew crystal-lang
+
 ## matsu-chara/brew-bundle
 tap matsu-chara/brew-bundle
 brew brew-bundle
@@ -94,6 +100,7 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
+brew afsctool
 brew android-sdk
 brew ansible
 brew ant
@@ -106,6 +113,7 @@ brew cocot
 brew curl
 brew direnv
 brew dnsmasq
+brew download.panamax.io
 brew fdclone
 brew ffmpeg
 brew fish
@@ -120,7 +128,10 @@ brew gitup
 brew glib
 brew gmp
 brew gnu-getopt
+brew gnupg
+brew go
 brew heroku-toolbelt
+brew htop-osx
 brew icu4c
 brew ios-sim
 brew jpeg
@@ -134,18 +145,22 @@ brew libssh2
 brew libtool
 brew libvo-aacenc
 brew libyaml
+brew lz4
 brew mackup
 brew makedepend
+brew maven
 brew mcrypt
 brew memcached
 brew mhash
 brew midnight-commander
+brew mongo-management-studio
 brew mongodb
 brew mysql
 brew nginx
 brew nkf
 brew node
 brew openssl
+brew pandoc
 brew pcre
 brew pkg-config
 brew python
