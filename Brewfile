@@ -149,7 +149,6 @@ brew mcrypt
 brew memcached
 brew mhash
 brew midnight-commander
-brew mongo-management-studio
 brew mongodb
 brew mysql
 brew nginx
