@@ -110,7 +110,6 @@ brew cocot
 brew curl
 brew direnv
 brew dnsmasq
-brew download.panamax.io
 brew fdclone
 brew ffmpeg
 brew fish
