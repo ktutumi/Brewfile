@@ -66,9 +66,6 @@ brew zlib
 tap homebrew/versions
 brew gradle21
 
-## http:/
-tap http:/
-
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
 
