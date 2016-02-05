@@ -2,54 +2,54 @@
 # tap repositories and their packages
 
 ## Caskroom/cask
-tap Caskroom/cask
-brew brew-cask
-cask alfred
-cask appcleaner
-cask audacity
-cask caffeine
-cask chefdk
-cask clamxav
-cask clipmenu
-cask cocoarestclient
-cask dropbox
-cask evernote
-cask flash
-cask flashlight
-cask genymotion
-cask google-chrome
-cask grandperspective
-cask handbrake
-cask hipchat
-cask hyperswitch
-cask java
-cask karabiner
-cask lastfm
-cask lastpass
-cask launchrocket
-cask macs-fan-control
-cask mysqlworkbench
-cask robomongo
-cask sequel-pro
-cask silverlight
-cask skitch
-cask skype
-cask sourcetree
-cask the-unarchiver
-cask toggldesktop
-cask totalfinder
-cask utorrent
-cask vlc
-cask xld
+#tap Caskroom/cask
+#brew brew-cask
+#cask alfred
+#cask appcleaner
+#cask audacity
+#cask caffeine
+#cask chefdk
+#cask clamxav
+#cask clipmenu
+#cask cocoarestclient
+#cask dropbox
+#cask evernote
+#cask flash
+#cask flashlight
+#cask genymotion
+#cask google-chrome
+#cask grandperspective
+#cask handbrake
+#cask hipchat
+#cask hyperswitch
+#cask java
+#cask karabiner
+#cask lastfm
+#cask lastpass
+#cask launchrocket
+#cask macs-fan-control
+#cask mysqlworkbench
+#cask robomongo
+#cask sequel-pro
+#cask silverlight
+#cask skitch
+#cask skype
+#cask sourcetree
+#cask the-unarchiver
+#cask toggldesktop
+#cask totalfinder
+#cask utorrent
+#cask vlc
+#cask xld
 
 ## caskroom/cask
-tap caskroom/cask
+#tap caskroom/cask
 
 ## caskroom/versions
-tap caskroom/versions
-cask firefox-ja
-cask google-chrome-canary
-cask macvim-kaoriya
+#tap caskroom/versions
+#cask firefox-ja
+#cask google-chrome-canary
+#cask macvim-kaoriya
 
 ## homebrew/apache
 tap homebrew/apache
@@ -63,8 +63,8 @@ brew apple-gcc42
 brew zlib
 
 ## homebrew/versions
-tap homebrew/versions
-brew gradle21
+#tap homebrew/versions
+#brew gradle21
 
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
@@ -184,23 +184,23 @@ brew zsh-completions
 brew zsh-syntax-highlighting
 
 # App Store applications
-appstore Blackmagic Disk Speed Test
-appstore ForkLift
-appstore GarageBand
-appstore Keynote
-appstore Kobito
-appstore LINE
-appstore MouseWarp
-appstore Numbers
-appstore OneDrive
-appstore Pages
-appstore Pushbullet
-appstore Slack
-appstore Todoist
-appstore Twitter
-appstore VOX
-appstore Writed
-appstore Wunderlist
-appstore Xcode
-appstore YoruFukurou
-appstore Yummy FTP
+#appstore Blackmagic Disk Speed Test
+#appstore ForkLift
+#appstore GarageBand
+#appstore Keynote
+#appstore Kobito
+#appstore LINE
+#appstore MouseWarp
+#appstore Numbers
+#appstore OneDrive
+#appstore Pages
+#appstore Pushbullet
+#appstore Slack
+#appstore Todoist
+#appstore Twitter
+#appstore VOX
+#appstore Writed
+#appstore Wunderlist
+#appstore Xcode
+#appstore YoruFukurou
+#appstore Yummy FTP
