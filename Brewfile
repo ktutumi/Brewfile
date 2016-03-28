@@ -24,7 +24,7 @@ brew php56-memcache
 brew php56-memcached
 brew php56-mongo
 brew php56-xdebug
-brew php56 --with-homebrew-curl --with-homebrew-curl --with-homebrew-curl --with-homebrew-curl
+brew php56 --with-homebrew-curl
 brew phpunit
 
 tap manastech/crystal
