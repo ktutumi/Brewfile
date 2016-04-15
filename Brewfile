@@ -11,46 +11,18 @@ tap homebrew/apache
 
 tap homebrew/binary
 
-tap homebrew/dupes
-brew apple-gcc42
-brew screen
-
-tap jimbojsb/launchrocket
-
-tap josegonzalez/php
-brew php56-igbinary
-brew php56-mcrypt
-brew php56-memcache
-brew php56-memcached
-brew php56-mongo
-brew php56-xdebug
-brew php56 --with-homebrew-curl
-brew phpunit
-
-tap manastech/crystal
-brew crystal-lang
-
-tap matsu-chara/brew-bundle
-brew brew-bundle
-
-tap peco/peco
-
-tap rcmdnk/file
-brew brew-file
-
-# Other Homebrew packages
+tap homebrew/core
 brew afsctool
 brew android-sdk
 brew ansible
 brew ant
-brew apr
 brew apr-util
 brew arp-scan
 brew autoconf
 brew bdw-gc
 brew bison
 brew cocot
-brew composer
+brew crystal-lang
 brew curl
 brew direnv
 brew dnsmasq
@@ -61,17 +33,17 @@ brew flow
 brew freetype
 brew gdbm
 brew gettext
-brew git
 brew git-now
 brew git-sh
+brew git
 brew gitup
-brew glib
 brew gmp
 brew gnu-getopt
 brew gnupg
 brew go
 brew heroku-toolbelt
 brew htop-osx
+brew httpie
 brew icu4c
 brew ios-sim
 brew jpeg
@@ -94,8 +66,6 @@ brew maven
 brew mcrypt
 brew memcached
 brew mhash
-brew midnight-commander
-brew mongodb
 brew mysql
 brew nginx
 brew nkf
@@ -107,19 +77,16 @@ brew pcre
 brew pkg-config
 brew python
 brew rbenv
-brew rbenv-bundler
 brew re2c
 brew readline
 brew ruby-build
 brew s-lang
 brew sqlite
 brew subversion
-brew the_silver_searcher
 brew tig
 brew tmux
 brew tree
 brew unixodbc
-brew unrar
 brew vim
 brew watch
 brew watchman
@@ -127,16 +94,53 @@ brew wget
 brew x264
 brew xvid
 brew xz
-brew zlib
-brew zsh
 brew zsh-completions
 brew zsh-syntax-highlighting
+brew zsh
+
+tap homebrew/dupes
+brew apple-gcc42
+brew screen
+
+tap jimbojsb/launchrocket
+
+tap josegonzalez/php
+brew php56-igbinary
+brew php56-mcrypt
+brew php56-memcache
+brew php56-memcached
+brew php56-mongo
+brew php56-xdebug
+brew php56 --with-homebrew-curl --with-homebrew-curl
+brew phpunit
+
+tap manastech/crystal
+
+tap matsu-chara/brew-bundle
+brew brew-bundle
+
+tap peco/peco
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Homebrew packages
+brew apr
+brew composer
+brew glib
+brew midnight-commander
+brew mongodb
+brew rbenv-bundler
+brew the_silver_searcher
+brew unrar
+brew zlib
 
 # App Store applications
 appstore 490461369 Bandwidth+
 appstore 455545700 BitPerfect
 appstore 425264550 Blackmagic Disk Speed Test
 appstore 449589707 Dash
+appstore 1084249373 Finch for Inbox
 appstore 682658836 GarageBand
 appstore 409183694 Keynote
 appstore 896624060 Kobito
