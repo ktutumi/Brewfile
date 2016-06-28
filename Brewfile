@@ -5,7 +5,6 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
-brew brew-cask
 
 tap homebrew/apache
 
@@ -17,12 +16,12 @@ brew android-sdk
 brew ansible
 brew ant
 brew apr-util
+brew apr
 brew arp-scan
 brew autoconf
 brew bdw-gc
 brew bison
 brew cocot
-brew crystal-lang
 brew curl
 brew direnv
 brew dnsmasq
@@ -37,11 +36,11 @@ brew git-now
 brew git-sh
 brew git
 brew gitup
+brew glib
 brew gmp
 brew gnu-getopt
 brew gnupg
 brew go
-brew heroku-toolbelt
 brew htop-osx
 brew httpie
 brew icu4c
@@ -66,6 +65,8 @@ brew maven
 brew mcrypt
 brew memcached
 brew mhash
+brew midnight-commander
+brew mongodb
 brew mysql
 brew nginx
 brew nkf
@@ -76,17 +77,21 @@ brew pandoc
 brew pcre
 brew pkg-config
 brew python
+brew rbenv-bundler
 brew rbenv
 brew re2c
 brew readline
-brew ruby-build
+brew ruby-build --HEAD
 brew s-lang
 brew sqlite
 brew subversion
+brew the_platinum_searcher
+brew the_silver_searcher
 brew tig
 brew tmux
 brew tree
 brew unixodbc
+brew unrar
 brew vim
 brew watch
 brew watchman
@@ -101,17 +106,21 @@ brew zsh
 tap homebrew/dupes
 brew apple-gcc42
 brew screen
+brew zlib
+
+tap homebrew/services
 
 tap jimbojsb/launchrocket
 
 tap josegonzalez/php
+brew composer
 brew php56-igbinary
 brew php56-mcrypt
 brew php56-memcache
 brew php56-memcached
 brew php56-mongo
 brew php56-xdebug
-brew php56 --with-homebrew-curl --with-homebrew-curl
+brew php56 --with-homebrew-curl
 brew phpunit
 
 tap manastech/crystal
@@ -124,17 +133,6 @@ tap peco/peco
 tap rcmdnk/file
 brew brew-file
 
-# Other Homebrew packages
-brew apr
-brew composer
-brew glib
-brew midnight-commander
-brew mongodb
-brew rbenv-bundler
-brew the_silver_searcher
-brew unrar
-brew zlib
-
 # App Store applications
 appstore 490461369 Bandwidth+
 appstore 455545700 BitPerfect
@@ -146,9 +144,11 @@ appstore 409183694 Keynote
 appstore 896624060 Kobito
 appstore 539883307 LINE
 appstore 926036361 LastPass
+appstore 634148309 Logic Pro X
+appstore 727484953 Markdown
+appstore 928871589 Noizio
 appstore 409203825 Numbers
 appstore 711830901 OmniGraffle
-appstore 823766827 OneDrive
 appstore 409201541 Pages
 appstore 568494494 Pocket
 appstore 803453959 Slack
