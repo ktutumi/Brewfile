@@ -5,6 +5,9 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
+cask vagrant
+cask virtualbox
+cask xquartz
 
 tap homebrew/apache
 
@@ -25,39 +28,55 @@ brew cocot
 brew curl
 brew direnv
 brew dnsmasq
+brew epstool
 brew fdclone
 brew ffmpeg
+brew fftw
 brew fish
 brew flow
+brew fontconfig
 brew freetype
+brew gcc
+brew gd
 brew gdbm
 brew gettext
+brew ghostscript
 brew git-now
 brew git-sh
 brew git
 brew gitup
+brew gl2ps
 brew glib
 brew gmp
 brew gnu-getopt
+brew gnu-sed
 brew gnupg
+brew gnuplot
 brew go
+brew graphicsmagick
 brew htop-osx
 brew httpie
 brew icu4c
+brew imagemagick
 brew ios-sim
+brew isl
 brew jpeg
 brew jq
 brew lame
 brew libevent
 brew libffi
 brew libmemcached
+brew libmpc
 brew libpng
 brew libssh2
+brew libtiff
 brew libtool
 brew libvo-aacenc
 brew libxml2
 brew libyaml
+brew little-cms2
 brew llvm
+brew lua
 brew lz4
 brew mackup
 brew makedepend
@@ -67,6 +86,7 @@ brew memcached
 brew mhash
 brew midnight-commander
 brew mongodb
+brew mpfr
 brew mysql
 brew nginx
 brew nkf
@@ -76,15 +96,24 @@ brew openssl
 brew pandoc
 brew pcre
 brew pkg-config
+brew plotutils
+brew pstoedit
+brew pyqt
 brew python
+brew qscintilla2
+brew qt
 brew rbenv-bundler
 brew rbenv
 brew re2c
 brew readline
 brew ruby-build --HEAD
 brew s-lang
+brew sip
 brew sqlite
 brew subversion
+brew szip
+brew tbb
+brew texinfo
 brew the_platinum_searcher
 brew the_silver_searcher
 brew tig
@@ -95,6 +124,7 @@ brew unrar
 brew vim
 brew watch
 brew watchman
+brew webp
 brew wget
 brew x264
 brew xvid
@@ -108,7 +138,21 @@ brew apple-gcc42
 brew screen
 brew zlib
 
+tap homebrew/science
+brew arpack
+brew glpk
+brew hdf5
+brew metis
+brew octave
+brew qhull
+brew qrupdate
+brew suite-sparse
+brew transfig
+brew veclibfort
+
 tap homebrew/services
+
+tap homebrew/x11
 
 tap jimbojsb/launchrocket
 
@@ -135,10 +179,7 @@ brew brew-file
 
 # App Store applications
 appstore 490461369 Bandwidth+
-appstore 455545700 BitPerfect
 appstore 425264550 Blackmagic Disk Speed Test
-appstore 449589707 Dash
-appstore 1084249373 Finch for Inbox
 appstore 682658836 GarageBand
 appstore 409183694 Keynote
 appstore 896624060 Kobito
@@ -156,4 +197,3 @@ appstore 425424353 The Unarchiver
 appstore 585829637 Todoist
 appstore 485812721 TweetDeck
 appstore 410628904 Wunderlist
-appstore 1082108292 Zest
