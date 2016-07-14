@@ -5,13 +5,23 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
+cask appcleaner
+cask google-chrome
 cask vagrant
 cask virtualbox
 cask xquartz
 
+tap caskroom/versions
+cask firefox-ja
+cask google-chrome-canary
+cask macvim-kaoriya
+
 tap homebrew/apache
 
 tap homebrew/binary
+
+tap homebrew/completions
+brew docker-completion
 
 tap homebrew/core
 brew afsctool
@@ -34,6 +44,7 @@ brew ffmpeg
 brew fftw
 brew fish
 brew flow
+brew fltk
 brew fontconfig
 brew freetype
 brew gcc
@@ -92,14 +103,18 @@ brew nginx
 brew nkf
 brew node
 brew nvm
+brew oniguruma
 brew openssl
 brew pandoc
 brew pcre
+brew pcre2
+brew perl
 brew pkg-config
 brew plotutils
 brew pstoedit
 brew pyqt
 brew python
+brew python3
 brew qscintilla2
 brew qt
 brew rbenv-bundler
@@ -107,6 +122,7 @@ brew rbenv
 brew re2c
 brew readline
 brew ruby-build --HEAD
+brew ruby
 brew s-lang
 brew sip
 brew sqlite
