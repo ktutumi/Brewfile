@@ -22,6 +22,7 @@ tap homebrew/binary
 
 tap homebrew/completions
 brew docker-completion
+brew docker-compose-completion
 
 tap homebrew/core
 brew afsctool
@@ -195,6 +196,7 @@ brew brew-file
 
 # App Store applications
 appstore 490461369 Bandwidth+
+appstore 455545700 BitPerfect
 appstore 425264550 Blackmagic Disk Speed Test
 appstore 682658836 GarageBand
 appstore 409183694 Keynote
@@ -207,6 +209,7 @@ appstore 928871589 Noizio
 appstore 409203825 Numbers
 appstore 711830901 OmniGraffle
 appstore 409201541 Pages
+appstore 1112075769 Pine Player
 appstore 568494494 Pocket
 appstore 803453959 Slack
 appstore 425424353 The Unarchiver
