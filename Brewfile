@@ -39,6 +39,7 @@ brew cocot
 brew curl
 brew direnv
 brew dnsmasq
+brew docker-clean
 brew epstool
 brew fdclone
 brew ffmpeg
