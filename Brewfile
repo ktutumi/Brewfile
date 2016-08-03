@@ -119,6 +119,7 @@ brew python
 brew python3
 brew qscintilla2
 brew qt
+brew ranger
 brew rbenv-bundler
 brew rbenv
 brew re2c
@@ -206,6 +207,7 @@ appstore 539883307 LINE
 appstore 926036361 LastPass
 appstore 634148309 Logic Pro X
 appstore 727484953 Markdown
+appstore 416285394 MiniUsage
 appstore 928871589 Noizio
 appstore 409203825 Numbers
 appstore 711830901 OmniGraffle
