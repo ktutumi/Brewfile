@@ -26,7 +26,6 @@ brew docker-compose-completion
 
 tap homebrew/core
 brew afsctool
-brew android-sdk
 brew ansible
 brew ant
 brew apr-util
@@ -111,7 +110,6 @@ brew pandoc
 brew pcre
 brew pcre2
 brew perl
-brew pkg-config
 brew plotutils
 brew pstoedit
 brew pyqt
@@ -201,18 +199,14 @@ appstore 490461369 Bandwidth+
 appstore 455545700 BitPerfect
 appstore 425264550 Blackmagic Disk Speed Test
 appstore 682658836 GarageBand
-appstore 409183694 Keynote
 appstore 896624060 Kobito
 appstore 539883307 LINE
 appstore 926036361 LastPass
 appstore 634148309 Logic Pro X
-appstore 727484953 Markdown
 appstore 416285394 MiniUsage
-appstore 928871589 Noizio
 appstore 409203825 Numbers
 appstore 711830901 OmniGraffle
 appstore 409201541 Pages
-appstore 1112075769 Pine Player
 appstore 568494494 Pocket
 appstore 803453959 Slack
 appstore 425424353 The Unarchiver
